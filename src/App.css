@@ -1,6 +1,17 @@
+.newFighters {
+  display: flex;
+  flex-direction: row; 
+}
+
+.fighters {
+  display: flex;
+  flex-direction: row;
+}
+
 ul {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 li {
